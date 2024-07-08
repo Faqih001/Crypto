@@ -1,6 +1,8 @@
 import { Box } from '@mui/material';
 import React from 'react';
 import {Oval} from "react-loader-spinner";
+
+// Loading component is a reusable component that takes in 2 props and returns a Box component with a loading spinner
 const Loading = ({width, height}) => {
   return (
     <Box sx={{
