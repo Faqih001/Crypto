@@ -8,6 +8,7 @@ const SearchedCoin = ({name, image, id, pickedCurrency}) => {
   // useContext is used to get the values from the AppContext provider in App.js
   const {setCurrency, setShowCapSide} = useContext(AppContext);
 
+  // changeCoin function is used to change the currency when a currency is clicked
   const changeCoin = () => {
     setCurrency(id);
     setShowCapSide(false);
