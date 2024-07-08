@@ -33,6 +33,7 @@ const SelectBox = styled('select')({
   }
 })
 
+// Capitalization component is a functional component that returns a Box component with a header, a select box, and a list of Currencies
 const Capitalization = () => {
   const {currency, vsCurrency, setVsCurrency, showCapSide, setShowCapSide} = useContext(AppContext);
 
