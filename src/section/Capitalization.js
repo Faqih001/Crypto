@@ -60,6 +60,7 @@ const Capitalization = () => {
     setVsCurrency(event.target.value);
   }
 
+  // Declare the function to reveal the search input field and close the search input field
   const revealInput = (event) => {
     if (event.currentTarget === closeSearchDivIcon.current) {
       searchDiv.current.style.right = "-100%";
