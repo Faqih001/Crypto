@@ -5,7 +5,7 @@ import { AppContext } from "App";
 // Currencies component is a functional component that returns a Box component with a list of Currencies
 const Currencies = ({name, image, currentPrice, marketCap, pickedCurrency, id}) => {
   
-  // 
+  // useContext is used to get the values from the AppContext provider in App.js
   const {vsCurrency ,setCurrency, setShowCapSide} = useContext(AppContext);
 
   const numberWithSpaces = (x) => {
