@@ -44,8 +44,11 @@ const Capitalization = () => {
 
   // Declare the state variables and set the initial values using the useState hook
   const [searchInput, setSearchInput] = useState("");
+
+  // Declare the state variables and set the initial values using the useState hook
   const [searched, setSearched] = useState([]);
 
+  // Declare the useRef hook to store the reference of the searchDiv element
   const searchDiv = useRef();
   const magnifyIcon = useRef();
   const closeSearchDivIcon = useRef();
