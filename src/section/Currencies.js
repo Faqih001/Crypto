@@ -8,6 +8,7 @@ const Currencies = ({name, image, currentPrice, marketCap, pickedCurrency, id}) 
   // useContext is used to get the values from the AppContext provider in App.js
   const {vsCurrency ,setCurrency, setShowCapSide} = useContext(AppContext);
 
+  // numberWithSpaces function is used to add space between every 3 digits in a number
   const numberWithSpaces = (x) => {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   }
