@@ -1,30 +1,21 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img src="https://s6.uupload.ir/files/react-app_uwxs.png" alt="cyrpto labs"></a>
-</p>
-
-<h3 align="center">Crypto Labs</h3>
-
-<div align="center">
+# Crypto Labs
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-</div>
-
-<h5 align="center"><a href="https://crypto-labs.miladsdgh.ir/" >Demo</a></h5>
+## Demo
 
 ---
 
-<p align="center"> <b>Crypto Labs</b> is a Cryptocurrency tracker with React js + TradngView gadget
-    <br>
-</p>
+**Crypto Labs** is a Cryptocurrency tracker with React js + TradngView gadget.
 
 ## 📝 Table of Contents
 
-- [📝 Table of Contents](#-table-of-contents)
-- [🧐 About ](#-about-)
-- [⛏️ Built Using ](#️-built-using-)
+- [Crypto Labs](#crypto-labs)
+  - [Demo](#demo)
+  - [📝 Table of Contents](#-table-of-contents)
+  - [🧐 About ](#-about-)
+  - [⛏️ Built Using ](#️-built-using-)
 
 ## 🧐 About <a name = "about"></a>
 
