@@ -10,6 +10,7 @@ import styles from "../Styles.module.scss";
 import SearchedCoin from './SearchedCoin';
 import { search } from 'component/api';
 
+// Capitalization component is a functional component that returns a Box component with a header, a select box, and a list of Currencies
 const SelectBox = styled('select')({
   backgroundColor: "rgb(64,64,79)",
   color: "#dfdfdf",
