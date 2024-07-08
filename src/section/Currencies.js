@@ -24,6 +24,7 @@ const Currencies = ({name, image, currentPrice, marketCap, pickedCurrency, id}) 
     setShowCapSide(false);
   }
 
+  // currencySymbol is used to get the currency symbol based on the selected currency
   const currencySymbol = marketCap.toLocaleString('en-US', { style: 'currency', currency: `${vsCurrency}`,}).replace(/,*[0-9]+./g, '');
 
   return (
