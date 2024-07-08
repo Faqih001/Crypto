@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from 'react';
 
-
+// StatBarHeader component is a reusable component that takes in 4 props and returns a Box component with a header and children
 export const StatBarHeader = ({icon, title, borderdir, children}) => {
   let borderR;
   borderdir === "start" ? 
