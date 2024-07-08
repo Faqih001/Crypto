@@ -2,7 +2,10 @@ import { Box, Typography } from '@mui/material';
 import React, { useContext } from 'react';
 import { AppContext } from "App";
 
+// Currencies component is a functional component that returns a Box component with a list of Currencies
 const Currencies = ({name, image, currentPrice, marketCap, pickedCurrency, id}) => {
+  
+  // 
   const {vsCurrency ,setCurrency, setShowCapSide} = useContext(AppContext);
 
   const numberWithSpaces = (x) => {
