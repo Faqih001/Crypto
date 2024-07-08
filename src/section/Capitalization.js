@@ -39,6 +39,7 @@ const Capitalization = () => {
   // Destructure the values from the AppContext provider and set the values to the variables 
   const {currency, vsCurrency, setVsCurrency, showCapSide, setShowCapSide} = useContext(AppContext);
 
+  // Declare the state variables and set the initial values using the useState hook 
   const [currencies, setCurrencies] = useState([]);
   const [searchInput, setSearchInput] = useState("");
   const [searched, setSearched] = useState([]);
