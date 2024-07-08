@@ -16,6 +16,7 @@ const CurrencyData = () => {
   let marketCapToBTC = useRef(0);
   let volume24ToBtc = useRef(0);
 
+  // useEffect is used to get the coin data based on the selected currency
   useEffect(() => {
     setCoinData([]);
     const coin = async () => {
