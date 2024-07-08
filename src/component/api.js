@@ -14,6 +14,7 @@ const getCoinData = async (coin) => {
   return response.data;
 }
 
+// Search for a coin with searchValue as parameter and return the data as JSON object
 const search = async (searchValue) => {
   const apiLink = `https://api.coingecko.com/api/v3/search?query=${searchValue}`;
   const response = await axios.get(apiLink);
