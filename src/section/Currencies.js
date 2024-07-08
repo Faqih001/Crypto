@@ -13,6 +13,7 @@ const Currencies = ({name, image, currentPrice, marketCap, pickedCurrency, id}) 
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   }
 
+  // selectedCoinPricesStyle function is used to change the color of the text based on the selected currency
   const selectedCoinPricesStyle = () => {
     return id === pickedCurrency ? "rgb(211 211 211)" : "rgb(183 183 183 / 62%)"
   }
