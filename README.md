@@ -17,7 +17,7 @@
 ---
 
 <p align="center"> <b>Crypto Labs</b> is a Cryptocurrency tracker with React js + TradngView gadget
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents
@@ -25,7 +25,6 @@
 - [📝 Table of Contents](#-table-of-contents)
 - [🧐 About ](#-about-)
 - [⛏️ Built Using ](#️-built-using-)
-
 
 ## 🧐 About <a name = "about"></a>
 
@@ -37,4 +36,3 @@ Crypto labs is a simple react app for track a coin with some feature like search
 - [Material UI](https://mui.com/) - CSS framework
 - [CoinGecko](https://www.coingecko.com/) - API
 - [axios](https://axios-http.com/) - Fetch Alternative
-
