@@ -4,6 +4,8 @@ import { AppContext } from 'App';
 
 // SearchedCoin component is a functional component that returns a Box component with a list of Searched Coins
 const SearchedCoin = ({name, image, id, pickedCurrency}) => {
+
+  // useContext is used to get the values from the AppContext provider in App.js
   const {setCurrency, setShowCapSide} = useContext(AppContext);
 
   const changeCoin = () => {
