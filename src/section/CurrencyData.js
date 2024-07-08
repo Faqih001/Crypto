@@ -8,6 +8,7 @@ import { StatBarHeader } from "component/commons";
 import { AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
 import styles from "../Styles.module.scss"
 
+// CurrencyData component is used to display the currency data in the Currency page
 const CurrencyData = () => {
   const {currency, vsCurrency} = useContext(AppContext);
   const [coinData, setCoinData] = useState([]);
