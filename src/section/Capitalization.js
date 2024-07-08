@@ -81,6 +81,7 @@ const Capitalization = () => {
     getCurrency();
   }, [vsCurrency]);
 
+  // Fetch the data from the API and set the data to the searched state when the searchInput state changes
   useEffect(() => {
     
     if(ignoreMount.current) {
