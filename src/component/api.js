@@ -7,6 +7,7 @@ const getAllCurrencies = async (vsCurrency) => {
   return response.data;
 }
 
+// Get Coin Data from API with coin as parameter and return the data as JSON object
 const getCoinData = async (coin) => {
   const apiLink = `https://api.coingecko.com/api/v3/coins/${coin}`;
   const response = await axios.get(apiLink);
