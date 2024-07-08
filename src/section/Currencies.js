@@ -18,6 +18,7 @@ const Currencies = ({name, image, currentPrice, marketCap, pickedCurrency, id}) 
     return id === pickedCurrency ? "rgb(211 211 211)" : "rgb(183 183 183 / 62%)"
   }
 
+  // changeCoin function is used to change the currency when a currency is clicked
   const changeCoin = () => {
     setCurrency(id);
     setShowCapSide(false);
