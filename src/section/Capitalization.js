@@ -41,6 +41,8 @@ const Capitalization = () => {
 
   // Declare the state variables and set the initial values using the useState hook 
   const [currencies, setCurrencies] = useState([]);
+
+  // Declare the state variables and set the initial values using the useState hook
   const [searchInput, setSearchInput] = useState("");
   const [searched, setSearched] = useState([]);
 
