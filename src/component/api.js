@@ -21,4 +21,5 @@ const search = async (searchValue) => {
   return response.data;
 }
 
+// Export the functions
 export { getAllCurrencies, getCoinData, search };
