@@ -55,6 +55,7 @@ const Capitalization = () => {
   const ignoreMount = useRef(false);
   const timeOut = useRef()
 
+  // Declare the function to change the vsCurrency state
   const currencyChange = (event) => {
     setVsCurrency(event.target.value);
   }
