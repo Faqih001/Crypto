@@ -33,6 +33,7 @@ const CurrencyData = () => {
     coin();
   }, [currency]);
 
+  // Loading component is displayed when the coin data is empty
   if (coinData.length === 0) return <Loading />
   return (
     <Box sx={{p: 3, height: "100%", display: "flex", flexDirection: "column"}}>
