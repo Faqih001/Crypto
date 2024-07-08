@@ -72,6 +72,7 @@ const Capitalization = () => {
     }
   }
 
+  // Fetch the data from the API and set the data to the currencies state
   useEffect(() => {
     const getCurrency = async () => {
       const data = await getAllCurrencies(vsCurrency);
