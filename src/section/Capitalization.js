@@ -99,6 +99,7 @@ const Capitalization = () => {
     }
   }, [searchInput]);
 
+  // Declare the function to handle the change in the search input field
   const handleChange = (event) => {
     setSearchInput(event.target.value)
   }
