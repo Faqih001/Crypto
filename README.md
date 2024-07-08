@@ -22,10 +22,9 @@
 
 ## 📝 Table of Contents
 
-- [About](#about)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [Authors](#authors)
+- [📝 Table of Contents](#-table-of-contents)
+- [🧐 About ](#-about-)
+- [⛏️ Built Using ](#️-built-using-)
 
 
 ## 🧐 About <a name = "about"></a>
@@ -39,10 +38,3 @@ Crypto labs is a simple react app for track a coin with some feature like search
 - [CoinGecko](https://www.coingecko.com/) - API
 - [axios](https://axios-http.com/) - Fetch Alternative
 
-## ✍️ Authors <a name = "authors"></a>
-
-- [@MiladSadeghi](https://github.com/MiladSadeghi) - Idea & Initial work
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- if you used my project, please like it ❤
